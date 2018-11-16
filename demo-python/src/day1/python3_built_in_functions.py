@@ -10,6 +10,20 @@ print("max(-20, 100, 400) : ", max(-20, 100, 400))
 print("max(-80, -20, -10) : ", max(-80, -20, -10))
 print("max(0, 100, -400) : ", max(0, 100, -400))
 
+print(max(["3","23","10","22"]))
+print(min(["3","23","10","22"]))
+print(max(["23","23","10","22"]))
+print(max([3,23,10,22]))
+print(min([3,23,10,22]))
+
+print(["3","23","10","22"])
+print(max("-1"))
+print(max("23"))
+print(max("23","22"))
+print(max("23","13"))
+print(max("23","3"))
+
+
 ## round() 方法返回浮点数x的四舍五入值。
 print("round(70.23456) : ", round(70.23456))
 print("round(56.659,1) : ", round(56.659, 1))
@@ -30,11 +44,8 @@ print(type(True))  # returns <class 'bool'>
 #### 如果要判断两个类型是否相同推荐使用 isinstance()。
 class A:
     pass
-
-
 class B(A):
     pass
-
 
 print(isinstance(A(), A))  # returns True
 print(type(A()) == A)  # returns True

@@ -33,3 +33,32 @@ print(str_list5)
 ## 利用步长对序列进行倒序取值
 str_list6 = ['Beijing', 'Shanghai', 'Shenzhen', 'Guangzhou']
 print(str_list6[::-1] )
+
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+for name in names:
+    name = name.lower().replace(" ", "_")
+print(names)
+
+
+items = ['first string', 'second string']
+html_str = "<ul>\n"  # "\ n" is the character that marks the end of the line, it does
+# the characters that are after it in html_str are on the next line
+print(len(items))
+# write your code here
+for i in range(len(items)):
+    if i < len(items):
+        html_str += "<li>{}</li>\n".format(items[i])
+html_str += "</ui>"
+
+print(html_str)
+
+
+items = ['first string', 'second string']
+
+html_str = "<ul>\n"
+for item in items:
+    html_str += "<li>{}</li>\n".format(item)
+html_str += "</ul>"
+
+print(html_str)

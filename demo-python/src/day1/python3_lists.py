@@ -59,3 +59,11 @@ print(" & ".join(sorted(names)))
 names = ["Carol", "Albert", "Ben", "Donna"]
 names.append("Eugenia")
 print(sorted(names))
+
+##
+L1= [1,2,3,4,5]
+L2= ['star','moon']
+L3= [1,2,'star']
+L= [L1,L2,L3]
+print(max(L,key=len))
+#print(max(L))

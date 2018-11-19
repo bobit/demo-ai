@@ -67,3 +67,14 @@ L3= [1,2,'star']
 L= [L1,L2,L3]
 print(max(L,key=len))
 #print(max(L))
+
+### count()方法
+####统计某个元素在列表中出现的次数
+li = ["a", "mpilgrim", "foo", "b", "c", "b", "d", "d"]
+print([elem for elem in li if len(elem) > 1])
+print([elem for elem in li if elem != "b"])
+print([elem for elem in li if li.count(elem) == 1])
+####利用list自带的count函数，来统计list中每个元素出现的次数。
+arr = [1, 2, 3, 2, 3, 1, 4];
+arr_appear = dict((a, arr.count(a)) for a in arr);#返回一个dict，这个dict的key是list本身的元素，value是出现的次数。
+print(arr_appear);

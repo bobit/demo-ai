@@ -1,9 +1,0 @@
-msgpack
-pinyin
-SnowNLP
-jieba
-itchat
-
-matplotlib
-wordcloud
-pygame
